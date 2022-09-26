@@ -5,7 +5,7 @@ import os
 import sys
 import wmi
 
-list=["twitch.tv/borjyyy"]
+list=["URL"]
 
 br=["chrome.exe","msedge.exe","firefox.exe"]
 
