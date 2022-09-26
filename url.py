@@ -11,7 +11,7 @@ br=["chrome.exe","msedge.exe","firefox.exe"]
 
 def browserloop():
     x=1
-    while x <= 3:
+    while x <= 1000:
         x+=1
         for i in list:
             time.sleep(1)
