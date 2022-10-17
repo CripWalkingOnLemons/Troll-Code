@@ -5,11 +5,11 @@ import os
 import sys
 import wmi
 
-list=["URL"]
+list=["URL"] #switch out URL with a url in quotes
 
-br=["chrome.exe","msedge.exe","firefox.exe"]
+br=["chrome.exe","msedge.exe","firefox.exe"] #the different browsers
 
-def browserloop():
+def browserloop(): #the loop
     x=1
     while x <= 1000:
         x+=1
@@ -28,7 +28,7 @@ def browserloop():
             break
   
         if flag == 0:
-            browserloop()
+            browserloop() #plays the loop again if you close the tab
 browserloop()
 
 
